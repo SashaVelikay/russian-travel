@@ -1,0 +1,31 @@
+.page {
+    position: relative;
+    max-width: 1280px;
+    min-height: 6874px;
+    margin: 0;
+    background: #2A2C2F;
+}
+
+@media screen and (max-width: 360px) {
+    .page {
+        width: 100%;
+        max-width: 320px;
+        min-height: 9617px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        width: 100%;
+        min-height: 6850px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        width: 100%;
+        min-height: 6898px;
+        margin: 0;
+    }
+
+}

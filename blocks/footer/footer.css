@@ -1,0 +1,31 @@
+.footer {
+    width: auto;
+    margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 360px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-left: 16px;
+        margin-top: 64px;
+        margin-right: 118px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .cover__title {
+        height: auto;
+        margin-top: 0;
+        margin-left: 56px;
+        margin-right: 56px;
+        padding-top: 115px;
+        font-size: 72px;
+        line-height: 76px;
+    }
+}

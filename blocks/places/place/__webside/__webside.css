@@ -1,0 +1,26 @@
+.place__webside {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: auto;
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+    .place__webside {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__webside {
+        max-width: 370px;
+        min-height: 46px;
+        padding-bottom: 0;
+    }
+}
