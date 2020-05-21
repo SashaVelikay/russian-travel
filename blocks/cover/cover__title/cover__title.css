@@ -11,9 +11,10 @@
     color: #FFFDFD;
 }
 
-
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .cover__title {
+        max-width: 288px;
+        min-height: 70px;
         margin-left: 16px;
         margin-right: 16px;
         margin-top: 33px;
@@ -23,8 +24,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 768px) {
     .cover__title {
         height: auto;
         margin-top: 0;
@@ -36,11 +36,11 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .cover__title {
         height: auto;
         margin-left: 184px;
         margin-right: 184px;
-    padding-top: 195px;
+        padding-top: 195px;
     }
 }

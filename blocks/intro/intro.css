@@ -10,7 +10,7 @@
     margin-bottom: 92px;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .intro {
         min-height: 752px;
         margin-top: 64px;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .intro {
         min-height: 428px;
         margin-left: 24px;
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .intro {
         min-height: 428px;
         margin-left: 48px;

@@ -11,7 +11,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .lead__title {
         margin-left: 16px;
         margin-right: 16px;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .lead__title {
         margin-left: 24px;
         margin-right: 24px;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .lead__title {
         margin-top: 48px;
         margin-left: 48px;

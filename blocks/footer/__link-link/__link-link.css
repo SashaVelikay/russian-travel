@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .footer__link-link {
         padding: 0;
         margin-bottom: 24px;
@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .footer__link-link {
         padding: 0;
         margin-bottom: 24px;

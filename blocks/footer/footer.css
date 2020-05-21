@@ -6,7 +6,7 @@
     margin-bottom: 24px;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .footer {
         display: flex;
         flex-direction: column;
@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     
     .cover__title {
         height: auto;

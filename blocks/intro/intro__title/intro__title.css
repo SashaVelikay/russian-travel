@@ -12,7 +12,7 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .intro__title {
         min-height: 70px;
         font-size: 32px;
@@ -21,14 +21,14 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .intro__title {
         font-size: 54px;
         line-height: 58px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .intro {
         margin-left: 48px;
         margin-right: 286px;

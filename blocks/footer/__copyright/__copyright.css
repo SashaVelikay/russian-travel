@@ -14,7 +14,7 @@
         color: #008080;
     }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .footer__copyright {
         text-align: left;
         margin-left: 16px;
@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .footer__copyright {
         max-width: 186px;
         font-size: 14px;

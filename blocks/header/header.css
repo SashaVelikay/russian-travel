@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .header {
         min-height: 42px;
         margin-left: 16px;
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .header {
         margin-left: 24px;
         margin-right: 24px;
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .header {
         margin-left: 48px;
         margin-right: 48px;
