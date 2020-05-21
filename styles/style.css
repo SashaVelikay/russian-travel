@@ -1,3 +1,4 @@
+@import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/__logo.css);
@@ -32,4 +33,3 @@
 @import url(../blocks/footer/__copyright/__copyright-links/__copyright-links.css);
 @import url(../blocks/footer/footer__links/footer__links.css);
 @import url(../blocks/footer/__link-link/__link-link.css);
-@import url(../fonts/Inter\ Hinted\ for\ Windows/.css);

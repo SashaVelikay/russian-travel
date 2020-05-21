@@ -60,12 +60,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
- @supports (font-var-settings: normal) {
-  html {font-family: 'Inter', без засечек; }
-}
-html {font-family: 'Inter', без засечек; 
-  -webkit-font-smoothing: subpixel-antialiased;
-}
+html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+  }
 
 /* Text-level semantics
    ========================================================================== */

@@ -7,7 +7,7 @@
     margin-top: 0;
     background-image: url(../../sprint-3-images/cover-trains.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .cover:hover {
