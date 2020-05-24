@@ -9,22 +9,18 @@
     margin-right: 106px;
 }
 
-@media only screen and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 424px) {
     .cover__subtitle {
         margin-left: 16px;
         margin-right: 16px;
         margin-top: 16px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 16px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .cover__subtitle {
-        height: auto;
         margin-left: 56px;
         margin-right: 56px;
         padding: 0;
@@ -33,9 +29,8 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .cover__subtitle {
-        height: auto;
         margin-left: 184px;
         padding-top: 32px;
         margin-top: 0;

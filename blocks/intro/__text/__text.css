@@ -8,7 +8,7 @@
     font-weight: normal;
 }
 
-@media only screen and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 424px) {
     .intro__text {
         left: 16px;
         margin-top: 40px;

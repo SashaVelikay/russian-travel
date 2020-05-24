@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 424px) {
     .intro__list {
         font-weight: bold;
         font-size: 12px;

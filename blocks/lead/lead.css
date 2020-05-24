@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 424px) {
     .lead {
         max-width: 320px;
         min-height: 406px;
@@ -15,14 +15,15 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+
+@media (min-width: 425px) and (max-width: 768px) {
     .lead {
         width: 100%;
         min-height: 862px;
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .lead {
         max-width: 928px;
         min-height: 962px;

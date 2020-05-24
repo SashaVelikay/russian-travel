@@ -1,7 +1,6 @@
 .cover {
     margin-top: 184px;
-    max-width: 1184px;
-    min-height: 740px;
+    height: 740px;
     margin-left: 48px;
     margin-right: 48px;
     margin-top: 0;
@@ -15,17 +14,15 @@
     opacity:.4;
 }
 
-@media only screen and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 424px) {
     .cover {
-        width: 100%;
-        min-height: 200px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 64px;
+        max-width: 320px;
+        height: 200px;
+        margin: 0px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .cover {
         width: 100%;
         min-height: 480px;
@@ -36,7 +33,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .cover {
         width: 100%;
         min-height: 640px;
