@@ -1,6 +1,6 @@
 .cover {
     margin-top: 184px;
-    height: 740px;
+    min-height: 740px;
     margin-left: 48px;
     margin-right: 48px;
     margin-top: 0;
@@ -9,31 +9,13 @@
     background-size: cover;
 }
 
+
 .cover:hover {
     background-image: #C0C0C0(0,0,0,.4); 
     opacity:.4;
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
-    .cover {
-        max-width: 320px;
-        height: 200px;
-        margin: 0px;
-    }
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
-    .cover {
-        width: 100%;
-        min-height: 480px;
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .cover {
         width: 100%;
         min-height: 640px;
@@ -44,3 +26,26 @@
     
     }
 }
+
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .cover {
+        width: 100%;
+        min-height: 480px;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+    .cover {
+        width: 100%;
+        min-height: 200px;
+        margin: 0 auto;
+    }
+}
+
+

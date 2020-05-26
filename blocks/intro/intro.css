@@ -13,7 +13,7 @@
 @media (min-width: 320px) and (max-width: 424px) {
     .intro {
         min-height: 752px;
-        margin-top: 64px;
+        margin-top: 0;
         margin-left: 16px;
         margin-right: 16px;
         margin-bottom: 64px;

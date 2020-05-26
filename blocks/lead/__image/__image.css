@@ -7,6 +7,7 @@
     margin-left: 111px;
     margin-right: 185px;
     margin-bottom: 8px;
+    display:block;
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
